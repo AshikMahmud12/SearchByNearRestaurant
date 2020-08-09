@@ -1,0 +1,96 @@
+@media only screen and (max-width: 2400px) {
+    .carousel-caption {
+        margin-left: 15%;
+        margin-bottom: 50px;
+    }
+    .carousel-caption p {
+        margin-left: 65%;
+        margin-top: 3%;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    ul li img {
+        width: 90px;
+        height: 90px;
+    }
+    .restaurentMarking {
+        margin-bottom: 0.5rem;
+    }
+
+    .carousel-caption {
+        margin-left: 5%;
+    }
+
+    div.form-group {
+        margin-left: 30rem;
+    }
+}
+@media only screen and (max-width: 991px) {
+    ul li img {
+        width: 60px;
+        height: 60px;
+    }
+    .restaurentMarking {
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    ul li img {
+        width: 30px;
+        height: 30px;
+    }
+    .restaurentMarking {
+        margin-bottom: -2rem;
+    }
+
+    .carousel-caption {
+        margin-bottom: 50px;
+        width: 400px;
+        height: 70px;
+    }
+    .carousel-caption p {
+        margin-left: 35%;
+        margin-top: 3%;
+    }
+    .carousel-caption h5 {
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    .carousel-caption .loginContinue {
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+        margin-left: 15rem;
+    }
+    div.form-group {
+        margin-left: 10rem;
+    }
+    .has-search .form-control {
+        width: 14rem;
+    }
+}
+@media only screen and (max-width: 576px) {
+    ul li img {
+        width: 30px;
+        height: 30px;
+    }
+    .carousel-caption {
+        bottom: 120px;
+        width: 300px;
+        height: 70px;
+        margin-bottom: 50px;
+        margin-left: 5%;
+    }
+    .carousel-caption h5 {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+    }
+    .carousel-caption .loginContinue {
+        font-size: 0.7rem;
+        margin-top: 0.5rem;
+        margin-left: 10rem;
+    }
+}

@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Raleway";
+}
+/* reuse code */
+.bg-amber {
+    background-color: #f9c14a;
+}
+.text-amber {
+    color: #f9c14a;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.text-black {
+    color: #000000;
+}
+
+.bg-gray {
+    background-color: #f4f4f4;
+}
+
+.bg-transparent {
+    background-color: #0009;
+}
+
+.font-size-19 {
+    font-size: 19px;
+    letter-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+}
+
+.font-size-12 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-weight: 600;
+    text-align: center;
+}
+
+.font-size-12-b {
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.font-size-21 {
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.font-size-13 {
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.font-size-13-b {
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 500;
+}
+section {
+    margin: 0;
+    padding: 0;
+}
+
+/* top Section */
+#topright a {
+    text-decoration: none;
+    color: #000000;
+}
+/* nav section */
+.nav-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0.1rem;
+    background-color: #f9c14a;
+    transition: width 0.3s;
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    -ms-transition: width 0.3s;
+    -o-transition: width 0.3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    -ms-transition: width 0.3s;
+    -o-transition: width 0.3s;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
+#navSection{
+    z-index: 99999999;
+}
+
+/* hero section */
+.border-radius-bottom {
+    border-radius: 0px 0px 17px 17px;
+    -webkit-border-radius: 0px 0px 17px 17px;
+    -moz-border-radius: 0px 0px 17px 17px;
+    -ms-border-radius: 0px 0px 17px 17px;
+    -o-border-radius: 0px 0px 17px 17px;
+}
+.border-radius-header {
+    border-radius: 17px 17px 0px 0px;
+    -webkit-border-radius: 17px 17px 0px 0px;
+    -moz-border-radius: 17px 17px 0px 0px;
+    -ms-border-radius: 17px 17px 0px 0px;
+    -o-border-radius: 17px 17px 0px 0px;
+}
+
+div#carouselItem {
+    position: relative;
+    justify-content: center;
+}
+
+div.form-group {
+    position: absolute;
+    z-index: 9999;
+    top: 1rem;
+    margin-left: 50rem;
+    right: auto;
+    bottom: auto;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    height: 2.5rem;
+    width: 20rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.carousel-item {
+    height: 410px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+.carousel-caption {
+    bottom: 120px;
+    background-color: #0004;
+    width: 530px;
+    height: 105px;
+
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.carousel-caption h5 {
+    font-size: 25px;
+    line-height: 34px;
+    font-weight: 700;
+    font-family: "Raleway";
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+/* banner section */
+.responsive {
+    display: flex;
+}
+
+.responsive .items img {
+    width: 120px;
+    height: 120px;
+}
+
+/* restaurant section */
+.fas {
+    font-size: 1rem;
+}
+.cardTitleRestaurent {
+    font-size: 15px;
+}
+.restaurentMarking {
+    margin-bottom: -1.8rem;
+}
+.moreDetail {
+    text-decoration: none;
+    color: white;
+}
+
+.seeRestaurant {
+    text-decoration: none;
+    color: black;
+}
+
+.item img {
+    height: 220px;
+    width: 100%;
+}
+.owl-dots {
+    display: none;
+}
+
+
+
